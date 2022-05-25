@@ -1,0 +1,31 @@
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+li {
+  display: inline;
+  padding: 3%;
+  margin: 5px;
+  float: left;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-family: Courier New;
+  font-size: 120%;
+  width: 100px;
+}
+
+li a:hover {
+  background-color: black;
+  font-size: 25px;
+  
+}
